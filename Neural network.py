@@ -84,7 +84,7 @@ for i in range(len(data)):
     print(result)
     
     
-    method_1 = 0.70845996 * w1 + 1 * w2  + b
+    method_1 = unkown[0] * w1 + unkown[1] * w2  + b
     result_1 = sigmoid(method_1)
 
     print(result_1 )
